@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog RAG Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛍️ Product Catalog Assistant</h1>
+            <p class="subtitle">Ask questions about your products in natural language</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Upload Section -->
+            <section class="upload-section">
+                <h2>📤 Upload Product Catalog</h2>
+                <div class="upload-controls">
+                    <input type="file" id="fileInput" accept=".csv,.json" />
+                    <button id="uploadBtn" class="btn btn-primary">Upload</button>
+                    <button id="clearBtn" class="btn btn-danger">Clear Database</button>
+                </div>
+                <div id="uploadStatus" class="status-message"></div>
+                <div id="stats" class="stats"></div>
+            </section>
+
+            <!-- Query Section -->
+            <section class="query-section">
+                <h2>💬 Ask About Your Products</h2>
+                <div class="query-controls">
+                    <textarea 
+                        id="queryInput" 
+                        placeholder="Try: 'Show me laptops under $1000' or 'What are the best wireless headphones?'"
+                        rows="3"
+                    ></textarea>
+                    <button id="queryBtn" class="btn btn-primary">Ask</button>
+                </div>
+                
+                <!-- Quick Query Examples -->
+                <div class="examples">
+                    <p><strong>Example queries:</strong></p>
+                    <div class="example-buttons">
+                        <button class="example-btn">"What laptops do you have?"</button>
+                        <button class="example-btn">"Show me products under $500"</button>
+                        <button class="example-btn">"Best products for gaming"</button>
+                        <button class="example-btn">"Wireless headphones with noise cancellation"</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section">
+                <div id="loading" class="loading" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>Searching products...</p>
+                </div>
+                
+                <div id="results" class="results"></div>
+            </section>
+        </div>
+
+        <footer>
+            <p>Built with Flask, ChromaDB & OpenAI | RAG Technology</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

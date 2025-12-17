@@ -1,0 +1,167 @@
+[
+    {
+        "id": "prod001",
+        "name": "UltraBook Pro 15",
+        "category": "Laptops",
+        "price": 1299.99,
+        "brand": "TechMaster",
+        "description": "High-performance laptop with Intel i7 processor, 16GB RAM, and 512GB SSD. Perfect for professional work and gaming.",
+        "features": "15.6 inch FHD display, Intel Core i7-12700H, 16GB DDR5 RAM, 512GB NVMe SSD, NVIDIA RTX 3050",
+        "stock": 45,
+        "rating": 4.7
+    },
+    {
+        "id": "prod002",
+        "name": "Gaming Beast X1",
+        "category": "Laptops",
+        "price": 1899.99,
+        "brand": "GamePro",
+        "description": "Ultimate gaming laptop with RTX 4060 graphics and 32GB RAM. Dominate any game with stunning visuals.",
+        "features": "17.3 inch 165Hz display, Intel Core i9-13900HX, 32GB DDR5 RAM, 1TB NVMe SSD, NVIDIA RTX 4060",
+        "stock": 23,
+        "rating": 4.9
+    },
+    {
+        "id": "prod003",
+        "name": "Budget Office Notebook",
+        "category": "Laptops",
+        "price": 549.99,
+        "brand": "ValueTech",
+        "description": "Affordable laptop for everyday tasks and office work. Reliable and efficient.",
+        "features": "14 inch HD display, Intel Core i3-1115G4, 8GB DDR4 RAM, 256GB SSD",
+        "stock": 78,
+        "rating": 4.2
+    },
+    {
+        "id": "prod004",
+        "name": "SilentSound Pro Wireless",
+        "category": "Headphones",
+        "price": 349.99,
+        "brand": "AudioElite",
+        "description": "Premium wireless headphones with industry-leading active noise cancellation. Immersive audio experience.",
+        "features": "Active Noise Cancellation, 30-hour battery, Bluetooth 5.3, Premium leather cushions",
+        "stock": 120,
+        "rating": 4.8
+    },
+    {
+        "id": "prod005",
+        "name": "BassBoost Gaming Headset",
+        "category": "Headphones",
+        "price": 129.99,
+        "brand": "GamePro",
+        "description": "Gaming headset with 7.1 surround sound and detachable microphone. Perfect for competitive gaming.",
+        "features": "7.1 Surround Sound, Detachable noise-canceling mic, RGB lighting, Memory foam ear cups",
+        "stock": 95,
+        "rating": 4.5
+    },
+    {
+        "id": "prod006",
+        "name": "Budget Earbuds Plus",
+        "category": "Headphones",
+        "price": 49.99,
+        "brand": "ValueTech",
+        "description": "Affordable wireless earbuds with decent sound quality. Great for everyday use.",
+        "features": "Bluetooth 5.0, 6-hour battery per charge, Touch controls, IPX4 water resistant",
+        "stock": 200,
+        "rating": 4.0
+    },
+    {
+        "id": "prod007",
+        "name": "ProClick RGB Gaming Mouse",
+        "category": "Accessories",
+        "price": 79.99,
+        "brand": "GamePro",
+        "description": "Professional gaming mouse with customizable RGB and 16000 DPI sensor.",
+        "features": "16000 DPI optical sensor, 8 programmable buttons, RGB lighting, Ergonomic design",
+        "stock": 150,
+        "rating": 4.6
+    },
+    {
+        "id": "prod008",
+        "name": "UltraWide 34-inch Monitor",
+        "category": "Monitors",
+        "price": 599.99,
+        "brand": "TechMaster",
+        "description": "34-inch ultrawide curved monitor with QHD resolution. Perfect for productivity and gaming.",
+        "features": "34 inch 3440x1440 curved display, 144Hz refresh rate, HDR10, USB-C connectivity",
+        "stock": 42,
+        "rating": 4.7
+    },
+    {
+        "id": "prod009",
+        "name": "SmartWatch Fitness Pro",
+        "category": "Wearables",
+        "price": 249.99,
+        "brand": "FitTrack",
+        "description": "Advanced fitness smartwatch with heart rate monitoring and GPS tracking.",
+        "features": "Heart rate monitor, GPS, Sleep tracking, 7-day battery, Water resistant 5ATM",
+        "stock": 85,
+        "rating": 4.4
+    },
+    {
+        "id": "prod010",
+        "name": "Wireless Keyboard & Mouse Combo",
+        "category": "Accessories",
+        "price": 89.99,
+        "brand": "TechMaster",
+        "description": "Premium wireless keyboard and mouse combo for office productivity.",
+        "features": "Wireless 2.4GHz, Quiet keys, Ergonomic design, Long battery life (12 months)",
+        "stock": 130,
+        "rating": 4.3
+    },
+    {
+        "id": "prod011",
+        "name": "4K Webcam Pro",
+        "category": "Accessories",
+        "price": 179.99,
+        "brand": "VideoMax",
+        "description": "Professional 4K webcam with auto-focus and noise reduction. Perfect for streaming and video calls.",
+        "features": "4K 30fps video, Auto-focus, Dual noise-reducing microphones, Privacy shutter",
+        "stock": 67,
+        "rating": 4.6
+    },
+    {
+        "id": "prod012",
+        "name": "Power Bank 20000mAh",
+        "category": "Accessories",
+        "price": 59.99,
+        "brand": "ChargeFast",
+        "description": "High-capacity power bank with fast charging support for multiple devices.",
+        "features": "20000mAh capacity, USB-C PD 30W, 3 output ports, LED display",
+        "stock": 180,
+        "rating": 4.5
+    },
+    {
+        "id": "prod013",
+        "name": "Mechanical Gaming Keyboard",
+        "category": "Accessories",
+        "price": 159.99,
+        "brand": "GamePro",
+        "description": "RGB mechanical keyboard with custom switches for gaming enthusiasts.",
+        "features": "Cherry MX Red switches, Per-key RGB, Aluminum frame, Detachable cable",
+        "stock": 92,
+        "rating": 4.8
+    },
+    {
+        "id": "prod014",
+        "name": "Portable SSD 1TB",
+        "category": "Storage",
+        "price": 129.99,
+        "brand": "DataSafe",
+        "description": "Ultra-fast portable SSD with USB 3.2 Gen 2 for quick data transfers.",
+        "features": "1TB capacity, Up to 1050 MB/s read speed, USB-C, Shock resistant",
+        "stock": 145,
+        "rating": 4.7
+    },
+    {
+        "id": "prod015",
+        "name": "USB-C Hub 7-in-1",
+        "category": "Accessories",
+        "price": 49.99,
+        "brand": "TechMaster",
+        "description": "Versatile USB-C hub with multiple ports for laptops and tablets.",
+        "features": "HDMI 4K, 3x USB 3.0, SD/microSD reader, USB-C PD charging, Ethernet port",
+        "stock": 210,
+        "rating": 4.4
+    }
+]
