@@ -1,0 +1,11 @@
+query_id,query_text,ai_response_summary,products_found,response_time_seconds,relevance_score
+1,What laptops do you have under $1000?,Found Budget Office Notebook at $549.99 with Intel i3 processor,1,1.2,0.95
+2,Show me wireless headphones with noise cancellation,Recommended SilentSound Pro Wireless with ANC technology,2,1.1,0.98
+3,Best products for gaming,Suggested Gaming Beast X1 laptop and gaming peripherals,3,1.3,0.92
+4,Monitors with high refresh rate,Found UltraWide 34-inch Monitor with 144Hz display,1,1.0,0.97
+5,Affordable accessories under $100,Listed multiple keyboards mice and USB hubs,5,1.4,0.90
+6,Smartwatch with fitness tracking,Identified SmartWatch Fitness Pro with heart rate monitor,1,1.1,0.96
+7,Products from TechMaster brand,Retrieved laptops keyboards and monitors,4,1.3,0.93
+8,Storage devices with high capacity,Found Portable SSD 1TB with fast transfer speeds,1,1.0,0.94
+9,Gaming headset with microphone,Recommended BassBoost Gaming Headset with 7.1 surround,1,1.2,0.97
+10,Budget friendly earbuds,Found Budget Earbuds Plus at $49.99 with good features,1,0.9,0.91

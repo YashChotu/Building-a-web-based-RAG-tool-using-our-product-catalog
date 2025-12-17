@@ -1,0 +1,29 @@
+{
+  "student_name": "FirstName_LastName",
+  "project": "Product Catalog RAG Application",
+  "test_queries_and_results": [
+    {
+      "query_id": 1,
+      "query": "What laptops do you have under $1000?",
+      "response": "Based on your query for laptops under $1000, I found the Budget Office Notebook at $549.99",
+      "products_returned": 1,
+      "execution_time": "1.2s"
+    },
+    {
+      "query_id": 2,
+      "query": "Show me wireless headphones with noise cancellation",
+      "response": "I found premium wireless headphones with active noise cancellation",
+      "products_returned": 2,
+      "execution_time": "1.1s"
+    },
+    {
+      "query_id": 3,
+      "query": "Best products for gaming",
+      "response": "For gaming, I recommend the Gaming Beast X1 laptop and BassBoost Gaming Headset",
+      "products_returned": 3,
+      "execution_time": "1.3s"
+    }
+  ],
+  "api_endpoint": "http://127.0.0.1:5000/api/query",
+  "submission_date": "2025-12-17"
+}

@@ -1,0 +1,6 @@
+query_id,query_text,response_summary,products_found,relevant
+1,"What laptops do you have under $1000?","Budget Office Notebook at $549.99",1,Yes
+2,"Show me wireless headphones with noise cancellation","SilentSound Pro Wireless found",2,Yes
+3,"Best products for gaming","Gaming Beast X1 and gaming accessories",3,Yes
+4,"Monitors with high refresh rate","UltraWide 34-inch Monitor with 144Hz",1,Yes
+5,"Affordable accessories under $100","Multiple keyboards, mice, and cables found",5,Yes
