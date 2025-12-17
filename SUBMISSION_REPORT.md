@@ -1,6 +1,6 @@
 # GenAI RAG Application - Assignment Submission
 
-**Student Name:** [Your Name Here]  
+**Student Name:** Yash Shekhar  
 **Date:** December 17, 2025  
 **Project:** Web-Based RAG Tool for Product Catalog
 
